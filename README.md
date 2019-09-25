@@ -15,17 +15,20 @@ vue init webpack my-project
 cd my-project
 npm install
 
-# 部署运行（serve with hot reload at localhost:8080）
+# 部署运行开发环境（serve with hot reload at localhost:8080）
 npm run dev
 
-# build for production with minification
+# 打包(build for production with minification)
 npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
 `理解步骤： index.html--> main.js --> App.vue -->`
 ```html
 说明：

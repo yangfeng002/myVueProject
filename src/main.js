@@ -4,7 +4,7 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-/* eslint-disable no-new */
+/* eslint-disable */
 new Vue({
   el: '#app',//挂载的element
   router:router,//路由，指向引入文件中的routes:[]

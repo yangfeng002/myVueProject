@@ -7,7 +7,7 @@ import HelloWorld from '@/components/HelloWorld'
 */
 
 /* 使用路由下面的语句不可缺少  Vue.use(Router) */
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
