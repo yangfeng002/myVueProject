@@ -3,6 +3,8 @@
   <!-- 注意：只能有1个根标签-->
   <div id="app">
     <img src="./assets/logo.png">
+    <!--调用自定义组件-->
+    <Counter :message="test.name"></Counter>
     <!-- 路由出口 -->
      <!-- 路由匹配到的组件将渲染在这里 -->
     <router-view></router-view>
@@ -11,8 +13,22 @@
 
 <!-- 2.行为：处理逻辑 -->
 <script>
+  //引入子组件
+import Counter from './components/Counter'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    'Counter':Counter
+  },
+  data:function () {
+    return {
+       message:'你好',
+       test:{
+         id:12,
+         name:'test'
+       }
+    }
+  }
 }
 </script>
 

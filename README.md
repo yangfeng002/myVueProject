@@ -1,4 +1,4 @@
-# my-project
+# my-project （依赖脚手架）
 
 > vue-cli
 
@@ -6,7 +6,7 @@
 
 ``` bash
 #全局安装脚手架vue-cli
-npm install --global vue-cli
+npm install --global vue-cli 
 
 #创建一个基于webpack模板的项目
 vue init webpack my-project

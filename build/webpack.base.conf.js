@@ -19,6 +19,7 @@ const createLintingRule = () => ({
   }
 })
 
+//此处为webpack打包工具的相关配置，通过module.exports导出
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
